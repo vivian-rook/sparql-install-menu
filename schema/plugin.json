@@ -1,15 +1,15 @@
 {
-  "title": "Main Menu Example",
-  "description": "Main Menu Example settings.",
+  "title": "Install Menu",
+  "description": "Install extensions from this menu.",
   "jupyter.lab.menus": {
     "main": [
       {
-        "id": "jp-mainmenu-example-menu",
-        "label": "Main Menu Example",
+        "id": "menu-install-sparql",
+        "label": "Install SPARQL",
         "rank": 80,
         "items": [
           {
-            "command": "jlab-examples:main-menu",
+            "command": "install-sparql:main-menu",
             "args": {
               "origin": "from the menu"
             }

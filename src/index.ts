@@ -16,10 +16,10 @@ const extension: JupyterFrontEndPlugin<void> = {
     const { commands } = app;
 
     // Add a command
-    const command = 'jlab-examples:main-menu';
+    const command = 'install-sparql:main-menu';
     commands.addCommand(command, {
-      label: 'Execute jlab-examples:main-menu Command',
-      caption: 'Execute jlab-examples:main-menu Command',
+      label: 'Install SPARQL',
+      caption: 'Install SPARQL',
       execute: (args: any) => {
         console.log(
           `jlab-examples:main-menu has been called ${args['origin']}.`
